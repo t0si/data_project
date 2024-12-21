@@ -96,28 +96,7 @@ Below is a visualization of the confusion matrix showing model performance:
 3. **Accuracy vs Epochs:**
    - Line graph showing training accuracy over epochs.
 
-### Example Visualization Code
-```python
-import matplotlib.pyplot as plt
-from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
+### **Confusion Matrix**
+The confusion matrix provides an overview of the model's performance across all classes:
 
-cm = confusion_matrix(y_true, y_pred)
-ConfusionMatrixDisplay(cm, display_labels=["Class 0", "Class 1", "Class 2", "Class 3", "Class 4"]).plot(cmap="Blues")
-plt.show()
-# LLM Project
-
-## Project Task
-(fill in details about your chosen project)
-
-## Dataset
-(fill in details about the dataset you're using)
-
-## Pre-trained Model
-(fill in details about the pre-trained model you selected)
-
-## Performance Metrics
-(fill in details about your chosen metrics and results)
-
-## Hyperparameters
-(fill in details about which hyperparemeters you found most important/relevant while optimizing your model)
-
+![Confusion Matrix](confusion_matrix.png)
