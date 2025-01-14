@@ -61,7 +61,7 @@ Below is a visualization of the confusion matrix showing model performance:
 ---
 
 ## **Relevant Links**
-- **Model on HuggingFace:** [Link](https://huggingface.co/your_model_link)
+- **Model on HuggingFace:** [Link](https://huggingface.co/t0si/yelp_review)
   
 - **Dataset Link:** [Yelp Review Full Dataset](https://huggingface.co/datasets/Yelp/yelp_review_full)
 
